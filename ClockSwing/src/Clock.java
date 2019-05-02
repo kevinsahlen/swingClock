@@ -14,10 +14,11 @@ public class Clock extends JFrame{
 		super("My Clock");
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setSize(200, 200);
 		setLocationRelativeTo(null);
 		setLayout(new BorderLayout());
 		add(myPanel, BorderLayout.NORTH);
+		setResizable(false);
+		pack();
 	}//constructor
 
 	
